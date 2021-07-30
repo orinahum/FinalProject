@@ -15,4 +15,4 @@ The project contains use of the following topics:
 * Suits
 * External Configuration
 * Screen Recorder
-And more
+And more...
