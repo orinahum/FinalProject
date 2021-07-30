@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Enviroment>
+
+    <!-- Timeout -->
+    <!-- Seconds -->
+    <timeout>5</timeout>
+
+\    <!-- Web -->
+    <browserName>chrome</browserName>
+    <urlWeb>http://127.0.0.1:3000/</urlWeb>
+    <userName>admin</userName>
+    <password>admin</password>
+    <imageRepo>C:/Automation/FinalProject/ImageRepository/</imageRepo>
+        <!-- Position & Resolution -->
+        <xPosition>0</xPosition>
+        <yPosition>0</yPosition>
+        <widthSize>1920</widthSize>
+        <heightSize>1080</heightSize>
+
+    <!-- Mobile -->
+    <udid>ce061716b9966cbe0c7e</udid>
+    <appPackage>com.shivgadhia.android.ukMortgageCalc</appPackage>
+    <appActivity>.MainActivity</appActivity>
+    <appiumServer>http://127.0.0.1:4723/wd/hub</appiumServer>
+
+    <!-- Data Driven Testing -->
+    <ddtUsers>./DDTFiles/users.csv</ddtUsers>
+
+    <!-- Screen Recorder-->
+    <screenRecDir>./ScreenRecorder/</screenRecDir>
+
+    <!-- Rest Assure API-->
+    <urlAPI>http://127.0.0.1:3000/</urlAPI>
+    <userNameAPI>admin</userNameAPI>
+    <passwordAPI>admin</passwordAPI>
+
+    <!-- Electron -->
+    <electronDriverPath>./drivers/electron.exe</electronDriverPath>
+    <electronAppPath>C:/Users/orina/AppData/Local/Programs/todolist/Todolist.exe</electronAppPath>
+
+    <!-- Desktop(WinAppDriver) -->
+    <calculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</calculatorApp>
+    <appiumServerDesktop>http://127.0.0.1:4723</appiumServerDesktop>
+
+    <!-- Database -->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/gNDYfXT8Oc</dbURL>
+    <dbUserName>gNDYfXT8Oc</dbUserName>
+    <dbPassword>AE0Lsx4dJk</dbPassword>
+
+    <!--    Command Prompt Path-->
+    <grafanaServer>C:\Automation\Servers\Grafana\bin\grafana-server.exe</grafanaServer>
+    <allureServer>allure serve C:/Automation/FinalProject/allure-results</allureServer>
+    <winAppDriverServer>c:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe</winAppDriverServer>
+    <winAppInspect>c:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\inspect.exe</winAppInspect>
+    <Jenkins>java -jar C:\Automation\Servers\Jenkins\jenkins.war --httpPort=9090</Jenkins>
+</Enviroment>

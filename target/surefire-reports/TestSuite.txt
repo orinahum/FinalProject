@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 118.748 s <<< FAILURE! - in TestSuite
+sanity.GrafanaWeb.test07_searchUsers[testUser, true](3)  Time elapsed: 15.682 s  <<< FAILURE!
+java.lang.AssertionError: 
+	at sanity.GrafanaWeb.test07_searchUsers(GrafanaWeb.java:67)
+
